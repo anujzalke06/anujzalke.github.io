@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anuj Zalke | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Fira Code', monospace;
+      background-color: #0a192f;
+      color: #ccd6f6;
+      line-height: 1.6;
+      scroll-behavior: smooth;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      position: sticky;
+      top: 0;
+      background-color: #0a192f;
+      z-index: 1000;
+      box-shadow: 0 1px 0 #112240;
+    }
+
+    nav ul {
+      display: flex;
+      list-style: none;
+      gap: 1.5rem;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #64ffda;
+      transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #ffffff;
+    }
+
+    header {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      padding: 0 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      color: #64ffda;
+      font-size: 1.2rem;
+    }
+
+    header h2 {
+      font-size: 3rem;
+      margin-top: 1rem;
+      color: #ccd6f6;
+    }
+
+    header h3 {
+      font-size: 2rem;
+      color: #8892b0;
+    }
+
+    section {
+      padding: 100px 2rem;
+      min-height: 100vh;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    h2 {
+      margin-bottom: 1rem;
+      color: #64ffda;
+      font-size: 2rem;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 2rem;
+      padding: 0.75rem 1.5rem;
+      color: #64ffda;
+      border: 1px solid #64ffda;
+      border-radius: 4px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background: rgba(100, 255, 218, 0.1);
+    }
+
+    ul {
+      list-style-type: square;
+      padding-left: 1.5rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      color: #8892b0;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div><strong>Anuj Zalke</strong></div>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <section id="Home">
+    <h1>👋 Hi, I'm</h1>
+    <h2>Anuj Zalke</h2>
+    <h3>I build things for the web.</h3>
+    <a href="#projects" class="btn">Check out my work</a>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m Anuj Zalke, an aspiring web developer currently learning HTML, CSS, and JavaScript. I'm passionate about clean and responsive design, and I use GitHub to showcase my work.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript (learning)</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <p>📌 Portfolio Website (You're viewing it!)</p>
+    <p>📌 Weather Radar (Coming Soon)</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: anujzalke06@gmail.com</p>
+    <p>Phone: +91 88620 67412</p>
+  </section>
+
+  <footer>
+    <p>Designed & Built by Anuj Zalke</p>
+  </footer>
+</body>
+</html>
